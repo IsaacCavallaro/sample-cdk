@@ -1,4 +1,5 @@
-# Sample CDK build
+# Overview
+* This is a simple cdk practice project written in typescript
 
 ## Resources
 * s3 Bucket
@@ -7,9 +8,6 @@
 
 ## Useful commands
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+* `npx aws-cdk synth` - generate CloudFormation template
+* `npx aws-cdk deploy cdk-stack-dev cdk-stack-prod` - deploy stacks
+* `npx aws-cdk destroy cdk-stack-dev cdk-stack-prod` - destroy stacks
