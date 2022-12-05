@@ -1,8 +1,9 @@
-# Welcome to your CDK TypeScript project
+# Sample CDK build
 
-This is a blank project for CDK development with TypeScript.
+## Resources
+* s3 Bucket
+* dynamoDb table
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ## Useful commands
 
